@@ -524,6 +524,58 @@
     transform: scale(1.05);
 }
 
+.map-section {
+    width: 100%;
+    background-color: #ABD1C6;
+    padding: 70px 0 80px;
+}
+
+.map-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* =========================
+   JUDUL
+========================= */
+
+.map-container h2 {
+    color: #004F4D;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   GAMBAR PETA
+========================= */
+
+.map-image {
+    width: 490px;
+    max-width: 100%;
+
+    margin: 0 auto;
+
+    border: 3px solid #0099ff;
+
+    background-color: white;
+
+    line-height: 0;
+}
+
+.map-image img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+
   @media (max-width: 640px) {
     .hero {
       height: 70vh;
